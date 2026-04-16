@@ -6,6 +6,10 @@ jobs:
     steps:
       - name: Good news
         run: echo "Good news!"
+      - name: Update news
+        run:
+          echo "new cannot updated"
+          echo "badnewses"
   Red:
     runs-on: ubuntu-latest
     steps:
