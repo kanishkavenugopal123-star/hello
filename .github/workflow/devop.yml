@@ -1,17 +1,17 @@
 name: krishna
 on: push
 jobs:
-  green:
+  Green:
     runs-on: ubuntu-latest
     steps:
       - name: Good news
         run: echo "Good news!"
-      - name: Update news
+      - name: Bad news
         run:
-          echo "new cannot updated"
-          echo "badnewses"
+          echo "Bad news are not update"
+          echo "bad news"
   Red:
-    runs-on: ubuntu-latest
+    runs-on:
     steps:
       - name: Bad news
-        run: echo "Bad news!"  
+        run: echo "this is Bad news"
