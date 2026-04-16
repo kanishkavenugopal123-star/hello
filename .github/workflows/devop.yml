@@ -12,7 +12,7 @@ jobs:
           echo "bad news"
 
   Red:
-      runs-on:
+      runs-on: ubuntu-latest
       steps:
         - name: Bad news
           run: echo "this is Bad news"
