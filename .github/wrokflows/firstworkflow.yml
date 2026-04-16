@@ -1,0 +1,13 @@
+name: krishna
+on: push
+jobs:
+  green:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Good news
+        run: echo "Good news!"
+  Red:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Bad news
+        run: echo "Bad news!"  
