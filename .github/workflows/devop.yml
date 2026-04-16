@@ -10,9 +10,9 @@ jobs:
         run:
           echo "Bad news are not update"
           echo "bad news"
-          
+
   Red:
-    runs-on:
-    steps:
-      - name: Bad news
-        run: echo "this is Bad news"
+      runs-on:
+      steps:
+        - name: Bad news
+          run: echo "this is Bad news"
